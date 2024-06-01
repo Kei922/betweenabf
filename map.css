@@ -1,0 +1,91 @@
+
+コードをコピーする
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: transparent;
+  border: 0px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+
+#map {
+    width: 100%;
+    height: 700px;
+    border-top-left-radius: 15vw;
+    border-top-right-radius: 15vw;
+}
+
+.maintitle{
+    font-family:"JackeyFont";
+    font-size:45px;
+   }
+
+   #between{
+    font-family:"NewJohnstonMedium";
+    font-size:45px;
+    letter-spacing:0;
+  }
+
+  #bf{
+    letter-spacing:-7px;
+  }
+
+  #mainbar{
+    text-decoration: none; /* Remove underline */
+    color: inherit; 
+          /* Inherit the color from the parent element */
+  }
+  
+  .tagline{
+    font-family:"JackeyFont";
+    margin-top:-25px;
+    font-size:17px;
+    
+  }
+
+  #mainbarbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* ヘッダーの背景色 */
+    z-index: 1000; /* 他の要素よりも手前に表示 */
+  }
+
+  .subpage{
+    font-family:"JackeyFont";
+    text-align:center;
+  }
+
+  header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#yohaku{
+  padding: 70px;
+}
+  
+#bodybox{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.subpage{
+  margin-bottom: -10%;
+}
+
